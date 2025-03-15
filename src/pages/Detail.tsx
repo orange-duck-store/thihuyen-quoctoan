@@ -49,7 +49,7 @@ const Detail = () => {
  <div className='relative overflow-x-hidden'>
 {isDisplaySpinner && <SpinningText className='absolute top-32 right-8 z-50 block sm:hidden'>learn more • earn more • grow more •</SpinningText>}
  <SparklesText className='my-3 mt-5 text-center text-[#495F88]' text="Chà để hiển thị" />;
-     <div className="flex items-center justify-center">
+     <div className="flex items-center justify-center" id='no-touch'>
      <ScratchToReveal
      onComplete={() => setisDisplaySpinner(false)}
      width={400}

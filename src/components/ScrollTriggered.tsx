@@ -87,6 +87,7 @@ const splash: React.CSSProperties = {
 }
 
 const card: React.CSSProperties = {
+    overflow: "hidden",
     fontSize: 164,
     width: 300,
     height: 430,
