@@ -42,7 +42,7 @@ const Detail = () => {
    <HeroVideoDialog
      animationStyle="from-center"
      videoSrc="/assets/huyen-hero.mp4"
-     thumbnailSrc="/assets/huyen2.jpg"
+     thumbnailSrc="/assets/huyen3.jpg"
      thumbnailAlt="I Love U"
    />
  </div>
